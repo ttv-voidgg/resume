@@ -3,9 +3,9 @@ import Image from 'next/future/image'
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import duotoneImage from '@/images/screencasts/duotone.svg'
-import gridsImage from '@/images/screencasts/ielts.png'
-import setupImage from '@/images/screencasts/google-cert.png'
-import strokesImage from '@/images/screencasts/wes.png'
+import ielts from '@/images/screencasts/ielts.png'
+import google from '@/images/screencasts/google-cert.png'
+import wes from '@/images/screencasts/wes.png'
 import { GridPattern } from '@/components/GridPattern'
 
 const videos = [
@@ -13,20 +13,22 @@ const videos = [
     title: 'Google PMP Certification',
     description:
       'Get familiar with the Figma UI, the different tools it offers, and the most important features.',
-    image: setupImage,
-    url: ''
+    image: google,
+    url: '',
   },
   {
     title: 'IELTS Certification',
     description:
       'Learn how to create a new artboard and configure your grid and rulers for designing icons.',
-    image: gridsImage,
+    image: ielts,
+    url: '',
   },
   {
     title: 'WES Assessment',
     description:
       'Using basic shapes and boolean operations, learn how to design your own notification icon from scratch.',
-    image: strokesImage,
+    image: wes,
+    url: '',
   },
 ]
 
