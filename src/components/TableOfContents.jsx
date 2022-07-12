@@ -50,7 +50,7 @@ export function TableOfContents() {
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Take a look at all of the skills that I’ve gained throughout my career. Everything you
-          need to know is inside.
+          need to know about me is listed.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           “Everything Starts as a Square” is comprised of 240 tightly edited,
