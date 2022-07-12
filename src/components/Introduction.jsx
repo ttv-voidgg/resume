@@ -47,9 +47,9 @@ export function Introduction() {
           ))}
         </ul>
         <p className="mt-8">
-          I was able to improve the existing processes of the teams I've worked with by being someone who the team can trust.
+          I was able to improve the existing processes of the teams I’ve worked with by being someone who the team can trust.
           Project management is not just about the processes that are needed to make a project successful; not just about satisfying the stakeholders
-          by saying “YES” to everything in defiance of logic and in exchange of the teams’ morale. It is more than that! And that's where I stand together
+          by saying “YES” to everything in defiance of logic and in exchange of the teams’ morale. It is more than that! And that’s where I stand together
           with my team.
         </p>
         <p className="mt-10">
