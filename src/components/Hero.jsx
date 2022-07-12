@@ -16,7 +16,7 @@ function Testimonial() {
           “Rule 13: When placed in command, take charge.”
         </p>
         <p className="font-display text-xl font-medium text-slate-900">
-          “Rule 14: Do what’s right!”
+          “Rule 14: Do what’s right!!”
         </p>        
       </blockquote>
       <figcaption className="mt-2 text-sm text-slate-500">
