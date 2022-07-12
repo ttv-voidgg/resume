@@ -49,7 +49,7 @@ export function TableOfContents() {
           Skills
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Get a look at all of the content covered in the book. Everything you
+          Take a look at all of the skills that I’ve gained throughout my career. Everything you
           need to know is inside.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
