@@ -14,7 +14,7 @@ const sections = [
   },
   { id: 'certifications', title: 'Certifications' },
   { id: 'work-history', title: 'Work History' },
-  { id: 'pricing', title: 'Pricing' },
+  { id: 'get-connected', title: 'Get Connected' },
   { id: 'author', title: 'Author' },
 ]
 

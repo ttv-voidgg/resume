@@ -19,7 +19,7 @@ const resources = [
     type: 'Full-time (Remote)',
     image: function Cx() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative inset-0 flex items-center justify-center">
           <Image src={cx} alt="" unoptimized />
         </div>
       )
@@ -34,7 +34,7 @@ const resources = [
     type: 'Freelance',
     image: function Webriver() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative inset-0 flex items-center justify-center">
           <Image src={webriver} alt="" unoptimized />
         </div>
       )
@@ -49,7 +49,7 @@ const resources = [
     type: 'Full-time (Remote)',
     image: function Iation() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative inset-0 flex items-center justify-center">
           <Image src={iation} alt="" unoptimized />
         </div>
       )
@@ -64,7 +64,7 @@ const resources = [
     type: 'Full-time (Remote)',
     image: function Ip() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative inset-0 flex items-center justify-center">
           <Image src={ip} alt="" unoptimized />
         </div>
       )
@@ -79,7 +79,7 @@ const resources = [
     type: 'Full-time',
     image: function Wo() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative inset-0 flex items-center justify-center">
           <Image src={wo} alt="" unoptimized />
         </div>
       )
@@ -94,7 +94,7 @@ const resources = [
     type: 'Full-time',
     image: function Ssip() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="relative inset-0 flex items-center justify-center">
           <Image src={ssip} alt="" unoptimized />
         </div>
       )
@@ -129,9 +129,9 @@ export function Resources() {
           {resources.map((resource) => (
             <li
               key={resource.title}
-              className="auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
+              className="auto-rows-min grid grid-cols-1 items-center px-3 sm:grid-cols-2 lg:grid-cols-1 xl:px-12"
             >
-              <div className="relative overflow-hidden rounded-2xl sm:h-60 lg:h-40">
+              <div className="relative overflow-hidden rounded-2xl mb-2">
                 <resource.image />
               </div>
               <div>

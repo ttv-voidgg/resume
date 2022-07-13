@@ -32,7 +32,6 @@ export default function Home() {
       <Screencasts />
       <Resources />
       <FreeChapters />
-      <Pricing />
       <Testimonials />
       <Author />
       <Footer />
