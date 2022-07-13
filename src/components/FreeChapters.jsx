@@ -25,7 +25,7 @@ export function FreeChapters() {
               Want to know more about me?
             </h2>
             <p className="mt-4 text-lg tracking-tight text-blue-200">
-              I'm always open for job opportunities, projects, and most especially new life experiences! 
+              I’m always open for job opportunities, projects, and most especially new life experiences! 
             </p>
           </div>
           <div className="lg:pl-16 z-10 mt-14">
