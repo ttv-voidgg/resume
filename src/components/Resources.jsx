@@ -2,59 +2,104 @@ import Image from 'next/future/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import abstractBackgroundImage from '@/images/resources/abstract-background.png'
-import discordImage from '@/images/resources/discord.svg'
-import figmaImage from '@/images/resources/figma.svg'
-import videoPlayerImage from '@/images/resources/video-player.svg'
+import ip from '@/images/resources/ip.png'
+import iation from '@/images/resources/ion.png'
+import cx from '@/images/resources/cx.png'
+import webriver from '@/images/resources/webriver.png'
+import wo from '@/images/resources/wo.png'
+import ssip from '@/images/resources/ssip.png'
 
 const resources = [
   {
-    title: 'Figma icon templates',
+    title: 'ConvrtX',
     description:
-      'Pefectly structured templates for quickly designing new icons at dozens of common sizes.',
-    image: function FigmaImage() {
-      return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(#2C313D_35%,#000)]">
-          <Image src={figmaImage} alt="" unoptimized />
-        </div>
-      )
-    },
-  },
-  {
-    title: 'Weekly icon teardowns',
-    description:
-      'Weekly videos where we dissect and recreate beautiful icons we find on the web.',
-    image: function VideoPlayerImage() {
+      'Project Manager',
+    year: '2022',
+    country: 'Toronto, Canada',
+    type: 'Full-time (Remote)',
+    image: function Cx() {
       return (
         <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            className="absolute inset-0 h-full w-full object-cover"
-            src={abstractBackgroundImage}
-            alt=""
-            sizes="(min-width: 1280px) 21rem, (min-width: 1024px) 33vw, (min-width: 768px) 19rem, (min-width: 640px) 50vw, 100vw"
-          />
-          <Image
-            className="relative"
-            src={videoPlayerImage}
-            alt=""
-            unoptimized
-          />
+          <Image src={cx} alt="" unoptimized />
         </div>
       )
     },
   },
   {
-    title: 'Community of icon designers',
+    title: 'webriver',
     description:
-      "A private Discord server where you can get help and give feedback on each others' work.",
-    image: function DiscordImage() {
+      'Project Manager',
+    year: '2013 - 2022',
+    country: 'Las Pinas City, Philippines',
+    type: 'Freelance',
+    image: function Webriver() {
       return (
-        <div className="absolute inset-0 flex items-center justify-center bg-[#6366F1]">
-          <Image src={discordImage} alt="" unoptimized />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image src={webriver} alt="" unoptimized />
+        </div>
+      )
+    },
+  },  
+  {
+    title: 'iation',
+    description:
+      'Project Manager',
+    year: '2020',
+    country: 'Oregon, USA',
+    type: 'Full-time (Remote)',
+    image: function Iation() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image src={iation} alt="" unoptimized />
+        </div>
+      )
+    },
+  }, 
+  {
+    title: 'Interactive Partners',
+    description:
+      'Account Manager',
+    year: '2019 - 2020',
+    country: 'Sydney, Australia',
+    type: 'Full-time (Remote)',
+    image: function Ip() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image src={ip} alt="" unoptimized />
         </div>
       )
     },
   },
+  {
+    title: 'Wideout Workforces Inc.,',
+    description:
+      'Senior Web Developer',
+    year: '2013 - 2014',
+    country: 'Taguig, Philippines',
+    type: 'Full-time',
+    image: function Wo() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image src={wo} alt="" unoptimized />
+        </div>
+      )
+    },
+  },
+  {
+    title: 'SSIP Asia Inc.,',
+    description:
+      'Junior Software Developer',
+    year: '2012 - 2013',
+    country: 'Makati, Philippines',
+    type: 'Full-time',
+    image: function Ssip() {
+      return (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Image src={ssip} alt="" unoptimized />
+        </div>
+      )
+    },
+  },           
 ]
 
 export function Resources() {
@@ -69,31 +114,41 @@ export function Resources() {
           Work History
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          The teams who I’ve worked  grew with
+          The teams who I’ve worked and grew with
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
+        I have never used the word I or my, but we or our. It’s more of a team than an individual effort to finish a project with flying colours.
         The teams mentioned below have supported and motivated me to give my best, making me the person I am today.
         </p>
       </Container>
       <Container size="lg" className="mt-16">
         <ol
           role="list"
-          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20"
+          className="-mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12"
         >
           {resources.map((resource) => (
             <li
               key={resource.title}
-              className="grid auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
+              className="auto-rows-min grid-cols-1 items-center gap-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12"
             >
-              <div className="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-60 lg:h-40">
+              <div className="relative overflow-hidden rounded-2xl sm:h-60 lg:h-40">
                 <resource.image />
               </div>
               <div>
-                <h3 className="text-base font-medium tracking-tight text-slate-900">
+                <h3 className="text-3xl font-medium tracking-tight text-slate-900">
                   {resource.title}
                 </h3>
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="text-md text-slate-600">
                   {resource.description}
+                </p>
+                <p className="text-sm leading-tight text-slate-400">
+                  {resource.year}
+                </p>
+                <p className="mt-2 text-sm leading-tight text-slate-400">
+                  {resource.country}
+                </p>
+                <p className="text-sm leading-tight text-slate-400">
+                  {resource.type}
                 </p>
               </div>
             </li>
