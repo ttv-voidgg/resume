@@ -52,7 +52,7 @@ export function TableOfContents() {
           The crafts that I’ve acquired throughout my career.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-        Take a look at the stuff that I've learned during the span of my career, 
+        Take a look at the stuff that I’ve learned during the span of my career, 
         from being a developer up to becoming a project manager. 
         Everything you need to know is listed down below.
 

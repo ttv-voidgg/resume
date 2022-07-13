@@ -69,12 +69,10 @@ export function Resources() {
           Work History
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          The teams who I grew with
+          The teams who I’ve worked  grew with
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Design assets, icon teardowns, and a community of fellow icon
-          designers where you can ask questions, get feedback, and accelerate
-          your learning.
+        The teams mentioned below have supported and motivated me to give my best, making me the person I am today.
         </p>
       </Container>
       <Container size="lg" className="mt-16">
