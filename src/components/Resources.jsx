@@ -69,8 +69,7 @@ export function Resources() {
           Work History
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Tools and resources you can use to get started even faster and
-          progress even further.
+          The teams who I grew with
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
           Design assets, icon teardowns, and a community of fellow icon
