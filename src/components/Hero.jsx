@@ -55,7 +55,7 @@ export function Hero() {
               The rockstar project manager.
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              8-years of successful remote project & change management experience.
+              8 years of successful remote project & change management experience.
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#free-chapters" color="blue">

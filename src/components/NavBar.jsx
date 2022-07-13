@@ -13,7 +13,7 @@ const sections = [
     ),
   },
   { id: 'certifications', title: 'Certifications' },
-  { id: 'resources', title: 'Resources' },
+  { id: 'work-history', title: 'Work History' },
   { id: 'pricing', title: 'Pricing' },
   { id: 'author', title: 'Author' },
 ]

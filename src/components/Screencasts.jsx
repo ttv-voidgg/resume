@@ -12,23 +12,32 @@ const videos = [
   {
     title: 'Google PMP Certification',
     description:
-      'Get familiar with the Figma UI, the different tools it offers, and the most important features.',
+      'Credential ID: W6S8XJ5J5K3S',
     image: google,
-    url: '',
+    url: 'https://www.coursera.org/account/accomplishments/certificate/W6S8XJ5J5K3S',
+    target: '_blank',
+    referrer: 'noreferrer',
+    status: 'Course 2 of 6',
   },
   {
     title: 'IELTS Certification',
     description:
-      'Learn how to create a new artboard and configure your grid and rulers for designing icons.',
+      'Report No.: 22PH004208DEJ001G',
     image: ielts,
-    url: '',
+    url: '#certifications',
+    target: '',
+    referrer: '',
+    status: 'Very Good User 8.0/9.0',    
   },
   {
-    title: 'WES Assessment',
+    title: '#certifications',
     description:
-      'Using basic shapes and boolean operations, learn how to design your own notification icon from scratch.',
+      'Reference No.: 4496917IMM',
     image: wes,
-    url: '',
+    url: '#certifications',
+    target: '',
+    referrer: '',
+    status: 'Bachelor’s degree',    
   },
 ]
 
@@ -63,37 +72,39 @@ export function Screencasts() {
           Certifications and Assessments
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Over an hour of high quality, step-by-step video content to sharpen
-          your icon design workflow.
+          Always seeking for avenues of growth.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          Learn how to design your very first icons in a series of screencasts
-          that will teach you everything you need to know to go from beginner to
-          pro in just over an hour.
+        I like researching new stuff not just for my career but also for myself outside the industry; 
+        as you read through this site, I might be currently learning something new. 
+        Of course, not everything needs to be on paper, such as certificates, but here are some.
         </p>
       </Container>
-      <Container size="md" className="mt-16">
+      <Container size="md" className="mt-16 relative">
         <ol
           role="list"
           className="grid grid-cols-1 text-center gap-y-10 gap-x-8 md:grid-cols-3"
         >
           {videos.map((video) => (
             <li key={video.title} className="">
-              <div
-                className="relative  items-center justify-center rounded-2xl p-1 shadow-lg max-w-xs mx-auto"
-                style={{
-                  backgroundImage:
-                    'conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)',
-                }}
-              >
-                <div className="overflow-hidden rounded-xl shadow-sm">
-                  <Image src={video.image} alt="" className="w-full" unoptimized />
+              <a href={video.url} target={video.target} rel={video.referrer}>
+                <div
+                  className="relative  items-center justify-center rounded-2xl p-1 shadow-lg max-w-xs mx-auto"
+                  style={{
+                    backgroundImage:
+                      'conic-gradient(from -49.8deg at 50% 50%, #7331FF 0deg, #00A3FF 59.07deg, #4E51FF 185.61deg, #39DBFF 284.23deg, #B84FF1 329.41deg, #7331FF 360deg)',
+                  }}
+                >
+                  <div className="overflow-hidden rounded-xl shadow-sm">
+                    <Image src={video.image} alt="" className="w-full" unoptimized />
+                  </div>
                 </div>
-              </div>
-              <h3 className="mt-8 text-base font-medium tracking-tight text-slate-900 before:mb-2 before:block before:font-mono before:text-sm before:text-slate-500">
-                {video.title}
-              </h3>
-              <p className="mt-2 text-sm text-slate-600">{video.description}</p>
+                <h3 className="mt-5 text-base font-medium tracking-tight text-slate-900">
+                  {video.title}
+                </h3>
+                <p className="text-sm text-slate-600">{video.description}</p>
+                <p className="text-xs text-slate-400">{video.status}</p>
+              </a>
             </li>
           ))}
         </ol>

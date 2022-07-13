@@ -60,13 +60,13 @@ const resources = [
 export function Resources() {
   return (
     <section
-      id="resources"
-      aria-labelledby="resources-title"
+      id="work-history"
+      aria-labelledby="work-history-title"
       className="scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32"
     >
       <Container>
-        <SectionHeading number="3" id="resources-title">
-          Resources
+        <SectionHeading number="3" id="work-history-title">
+          Work History
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
           Tools and resources you can use to get started even faster and

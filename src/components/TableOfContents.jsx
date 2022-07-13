@@ -49,13 +49,13 @@ export function TableOfContents() {
           Skills
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Take a look at all of the skills that I’ve gained throughout my career. Everything you
-          need to know about me is listed.
+          The crafts that I’ve acquired throughout my career.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          “Everything Starts as a Square” is comprised of 240 tightly edited,
-          highly visual pages designed to teach you everything you need to know
-          about icon design with no unnecessary filler.
+        Take a look at the stuff that I've learned during the span of my career, 
+        from being a developer up to becoming a project manager. 
+        Everything you need to know is listed down below.
+
         </p>
         <Expandable>
           {({ isExpanded }) => (

@@ -16,29 +16,27 @@ export function Introduction() {
           that helps my team achieve great heights.
         </p>
         <p className="mt-4">
-          Before, when I was in college, I always imagined that project management
-          is just a bunch of boring processes to drive projects from start to end.
-          I thought that you should just know what the basics are and all should be good.
+        Before, when I was in college, I always imagined that project management was just a bunch of tedious processes
+         to drive projects from start to end. I thought that it was enough to know the basics, and then all should be good.
         </p>
         <p className="mt-4">
-          But it turns out this isn’t how great great project managers work at all.
+          But this isn’t how great project managers work at all.
         </p>
         <p className="mt-4">
-          Immediately after graduating college, I started working as a developer.
-          At that point I felt like there should be more to this. And that’s the time when I
-          started searching for answers which lead me to the following objectives:
+        Immediately after graduating college, I started working as a developer. 
+        At that point, I felt like there should be more to it which led me to 
+        begin searching for answers that brought me the following objectives:
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            'Learn the culture of the team and their current process by observing and communicating',
+            'Understand the culture of the team and their existing process by observing and communicating',
             'Discuss project plans together with the team',
-            'Encourage my team to be transparent and have their voice be heard',
-            'Be a leader who knows when to decline requirements and back them with facts discussed with the team',
-            'Improve the current process based on what was observed during the project life cycle',
-            'Trust my team and train them as leaders and not just as followers',
-            'Drive growth by inspiring my team to explore outside of their comfort zone',
-            'To accept my flaws by taking constructive criticism from the team to improve myself',
-            'To NEVER become a YES MAN!',
+            'Encourage my team to be transparent and have their voices heard',
+            'Be a leader who knows when to decline requirements and support them with facts conferred with the team',
+            'Enhance the current process based on observation during the project life cycle',
+            'Trust my team and prepare them to become leaders and not just followers',
+            'Drive growth by motivating my team to explore outside of their comfort zone',
+            'Accept my weaknesses by taking constructive criticism to improve myself',
           ].map((feature) => (
             <li key={feature} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
@@ -47,10 +45,10 @@ export function Introduction() {
           ))}
         </ul>
         <p className="mt-8">
-          I was able to improve the existing processes of the teams I’ve worked with by being someone who the team can trust.
-          Project management is not just about the processes that are needed to make a project successful; not just about satisfying the stakeholders
-          by saying “YES” to everything in defiance of logic and in exchange of the teams’ morale. It is more than that! And that’s where I stand together
-          with my team.
+        I improved the existing processes of the teams I’ve worked with by being someone they can trust. 
+        Project management is not just about the processes needed to make a project successful; 
+        not just about satisfying the stakeholders by saying “YES” to everything in defiance of logic and in exchange for the teams’ morale. 
+        It is more than that, and that’s where I stand with my team.
         </p>
         <p className="mt-10">
           <Link
