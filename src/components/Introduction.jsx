@@ -52,7 +52,7 @@ export function Introduction() {
         </p>
         <p className="mt-10">
           <Link
-            href="#free-chapters"
+            href="#get-connected"
             className="text-base font-medium text-blue-600 hover:text-blue-800"
           >
             Want to know more about me?{' '}
