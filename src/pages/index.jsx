@@ -20,6 +20,7 @@ export default function Home() {
         <title>
           Rockstar Project Manager - JC de Borja
         </title>
+        <meta name="robots" content="noindex"/>
         <meta
           name="description"
           content="A rockstar project manager 8-years of successful remote project & change management experience."
