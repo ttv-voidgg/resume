@@ -5,13 +5,6 @@ import { Container } from '@/components/Container'
 import { Expandable } from '@/components/Expandable'
 import avatarImage3 from '@/images/avatars/wahab.jpg'
 import avatarImage4 from '@/images/avatars/mohd.jpg'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
-import avatarImage6 from '@/images/avatars/avatar-6.png'
-import avatarImage7 from '@/images/avatars/avatar-7.png'
-import avatarImage8 from '@/images/avatars/avatar-8.png'
-import avatarImage9 from '@/images/avatars/avatar-9.png'
-import avatarImage10 from '@/images/avatars/avatar-10.png'
-import avatarImage11 from '@/images/avatars/avatar-11.png'
 
 const testimonials = [
   [

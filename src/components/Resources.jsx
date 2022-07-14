@@ -134,7 +134,7 @@ export function Resources() {
               <div className="relative overflow-hidden rounded-2xl mb-2">
                 <resource.image />
               </div>
-              <div>
+              <div className="text-center sm:text-left sm:pl-5 lg:pl-0 lg:text-center">
                 <h3 className="text-3xl font-medium tracking-tight text-slate-900">
                   {resource.title}
                 </h3>

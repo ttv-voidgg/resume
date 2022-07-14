@@ -12,18 +12,18 @@ function Testimonial() {
         {/* <StarRating /> */}
       </div>
       <blockquote className="mt-2">
-        <p className="font-display text-xl font-medium text-slate-900">
-          “Rule 13: When placed in command, take charge.”
+        <p className="font-display text-lg sm:text-xl font-medium text-slate-900">
+          “Rule 13: When placed in command, take&nbsp;charge.”
         </p>
-        <p className="font-display text-xl font-medium text-slate-900">
+        <p className="font-display text-lg sm:text-xl font-medium text-slate-900">
           “Rule 14: Do what’s right!”
         </p>        
       </blockquote>
       <figcaption className="mt-2 text-sm text-slate-500">
         <strong className="font-semibold text-blue-600 before:content-['—_']">
-          Norman Schwarzkopf
+          Norman&nbsp;Schwarzkopf
         </strong>
-        , General, United States Army
+        , General,&nbsp;United&nbsp;States&nbsp;Army
       </figcaption>
     </figure>
   )
@@ -58,10 +58,10 @@ export function Hero() {
               8 years of successful remote project & change management experience.
             </p>
             <div className="mt-8 flex gap-4">
-              <Button href="#free-chapters" color="blue">
+              <Button href="#get-connected" color="blue">
                 Get in touch
               </Button>
-              <Button href="#pricing" variant="outline" color="blue">
+              <Button href="#work-history" variant="outline" color="blue">
                 Work Experience
               </Button>
             </div>

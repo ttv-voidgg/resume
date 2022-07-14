@@ -15,7 +15,7 @@ const sections = [
   { id: 'certifications', title: 'Certifications' },
   { id: 'work-history', title: 'Work History' },
   { id: 'get-connected', title: 'Get Connected' },
-  { id: 'author', title: 'Author' },
+  { id: 'outside-work', title: 'Outside Work' },
 ]
 
 function MenuIcon({ open, ...props }) {

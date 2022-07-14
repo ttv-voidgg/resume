@@ -2,7 +2,6 @@ import Image from 'next/future/image'
 
 import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
-import duotoneImage from '@/images/screencasts/duotone.svg'
 import ielts from '@/images/screencasts/ielts.png'
 import google from '@/images/screencasts/google-cert.png'
 import wes from '@/images/screencasts/wes.png'
@@ -22,7 +21,7 @@ const videos = [
   {
     title: 'IELTS Certification',
     description:
-      'Report No.: 22PH004208DEJ001G',
+      'Report #: 22PH004208DEJ001G',
     image: ielts,
     url: '#certifications',
     target: '',
@@ -30,9 +29,9 @@ const videos = [
     status: 'Very Good User 8.0/9.0',    
   },
   {
-    title: '#certifications',
+    title: 'World Education Services',
     description:
-      'Reference No.: 4496917IMM',
+      'Reference #: 4496917IMM',
     image: wes,
     url: '#certifications',
     target: '',
@@ -102,7 +101,7 @@ export function Screencasts() {
                 <h3 className="mt-5 text-base font-medium tracking-tight text-slate-900">
                   {video.title}
                 </h3>
-                <p className="text-sm text-slate-600">{video.description}</p>
+                <p className="text-sm md:text-xs lg:text-sm text-slate-600">{video.description}</p>
                 <p className="text-xs text-slate-400">{video.status}</p>
               </a>
             </li>
