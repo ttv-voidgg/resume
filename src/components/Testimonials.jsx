@@ -14,6 +14,7 @@ const testimonials = [
       author: {
         name: 'Abdul Wahab',
         role: 'UI/UX Expert',
+        company: 'ConvrtX',
         image: avatarImage3,
       },
     },
@@ -26,6 +27,7 @@ const testimonials = [
       author: {
         name: 'Dr. Mohammed Raiyan',
         role: 'Head of Product Development',
+        company: 'ConvrtX',
         image: avatarImage4,
       },
     },
@@ -66,6 +68,7 @@ function Testimonial({ author, children }) {
             {author.name}
           </div>
           <div className="mt-1 text-sm text-slate-600">{author.role}</div>
+          <div className="mt-1 text-xs text-slate-400">{author.company}</div>
         </div>
       </figcaption>
     </figure>
@@ -80,7 +83,7 @@ export function Testimonials() {
           Some kind words from my teammates...
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
-          I have led and worked remote teams from the Philippines, USA, Canada, Ukraine, India, Pakistan and UAE. Here is what they have to say about me.
+          I have led and worked with remote teams from the Philippines, USA, Canada, Ukraine, India, Pakistan and UAE. Here is what they have to say about me.
         </p>
       </Container>
       <Expandable>
