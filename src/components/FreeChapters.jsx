@@ -22,7 +22,7 @@ export function FreeChapters() {
             </span><span className="ml-3 text-base font-medium tracking-tight">Get Connected!</span>
           </h2>          
             <h2 className="font-display text-5xl font-extrabold tracking-tight text-white sm:w-3/4 sm:text-6xl md:w-2/3 lg:w-auto">
-              Want to know more about me?
+              Know more about me!
             </h2>
             <p className="mt-4 text-lg tracking-tight text-blue-200">
               I’m always open for job opportunities, projects, and most especially new life experiences! 
@@ -46,6 +46,14 @@ export function FreeChapters() {
               juancarlos.deborja@gmail.com
               </div>
             </a>
+            <a href="https://koalendar.com/e/meet-with-eejay">
+              <div className="mb-2 max-w-xl bg-white text-slate-700 text-lg sm:text-xl rounded-full px-3 py-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              </svg>
+              Book a meeting
+              </div>
+            </a>             
             <a href="https://www.linkedin.com/in/eejay-de-borja-80696651/">
               <div className="mb-2 max-w-xl bg-white text-slate-700 text-lg sm:text-xl rounded-full px-3 py-2">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2 mr-2 inline-block" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
