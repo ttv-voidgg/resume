@@ -15,7 +15,7 @@ const resources = [
     description:
       'Project Manager',
     year: '2022',
-    country: 'Toronto, Canada',
+    country: 'Dubai, UAE / Ontario, Canada',
     type: 'Full-time (Remote)',
     image: function Cx() {
       return (
