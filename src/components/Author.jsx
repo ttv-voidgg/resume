@@ -1,4 +1,4 @@
-/* eslint-disable */
+
 import Image from 'next/future/image'
 import Link from 'next/link'
 
@@ -45,26 +45,26 @@ export function Author() {
             <p className="mt-4 text-lg tracking-tight text-slate-700">
             Hey!
             </p>
-            You're probably still reading through this message because you're curious 
+            You&lsquo;re probably still reading through this message because you&lsquo;re curious 
             about who I am. Well... here are more things about me, but I need to 
             cut this short. Because... you know... marketing... I need to get in a call 
             with you, so you can ask me all those questions in person! 
-            So let's start! I'm a person who is very passionate about the things I do in 
+            So let&lsquo;s start! I&lsquo;m a person who is very passionate about the things I do in 
             life.
             <p className="mt-4 text-lg tracking-tight text-slate-700">
             I am a project manager right now because I love leading people to their 
-            success. I'm also currently an International Student, taking IT Security and Infrastructure here in Canada.
+            success. I&lsquo;m also currently an International Student, taking IT Security and Infrastructure here in Canada.
             Outside of the career world, I do a lot of stuff; I travel, play musical 
-            instruments, sing, draw, program custom apps, I'm a race car driver, handyman, photographer (You should check my instagram for cool pics!) and much more. 
+            instruments, sing, draw, program custom apps, I&lsquo;m a race car driver, handyman, photographer (You should check my instagram for cool pics!) and much more. 
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
             I believe that there is so much to live that you should turn every day into an adventure. 
-            Do you wanna to be a part of my adventure? What are you waiting for? If you call now you'll get a chance to hear more cool stuff! But wait! There's more!
-            If you hire me, you won't just get my positive vibe and energy(well, not like this in person, this is too much), you'll also hire someone who's smart,
+            Do you wanna to be a part of my adventure? What are you waiting for? If you call now you&lsquo;ll get a chance to hear more cool stuff! But wait! There&lsquo;s more!
+            If you hire me, you won&lsquo;t just get my positive vibe and energy(well, not like this in person, this is too much), you&lsquo;ll also hire someone who&lsquo;s smart,
             strategic, resourceful, and proactive!
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-            So what are you waiting for? Click on the "Get Connected" tab now!
+            So what are you waiting for? Click on the &ldquo;Get Connected&rdquo; tab now!
             </p>
             <p className="mt-8">
               <Link
