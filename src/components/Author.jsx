@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Image from 'next/future/image'
 import Link from 'next/link'
 
@@ -44,17 +45,17 @@ export function Author() {
             <p className="mt-4 text-lg tracking-tight text-slate-700">
             Hey!
             </p>
-            You’re probably still reading through this message because you’re curious 
+            You're probably still reading through this message because you're curious 
             about who I am. Well... here are more things about me, but I need to 
             cut this short. Because... you know... marketing... I need to get in a call 
             with you, so you can ask me all those questions in person! 
-            So let's start! I’m a person who is very passionate about the things I do in 
+            So let's start! I'm a person who is very passionate about the things I do in 
             life.
             <p className="mt-4 text-lg tracking-tight text-slate-700">
             I am a project manager right now because I love leading people to their 
             success. I'm also currently an International Student, taking IT Security and Infrastructure here in Canada.
             Outside of the career world, I do a lot of stuff; I travel, play musical 
-            instruments, sing, draw, program custom apps, I’m a race car driver, handyman, photographer (You should check my instagram for cool pics!) and much more. 
+            instruments, sing, draw, program custom apps, I'm a race car driver, handyman, photographer (You should check my instagram for cool pics!) and much more. 
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
             I believe that there is so much to live that you should turn every day into an adventure. 
