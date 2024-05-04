@@ -42,15 +42,28 @@ export function Author() {
               there, I hope you enjoyed reading through my resume.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
+            Hey!
+            </p>
             You’re probably still reading through this message because you’re curious 
-            about who I am. Well... here are some more things about me, but I need to 
+            about who I am. Well... here are more things about me, but I need to 
             cut this short. Because... you know... marketing... I need to get in a call 
-            with you! Ok, I’m a person who is very passionate about the things I do in 
-            life. I am a project manager right now because I love leading people to their 
-            success. Outside of the career world, I do a lot of stuff; I travel, play musical 
-            instruments, sing, draw, program, I’m a race car driver, handyman, photographer and much more. 
-            There is so much to live that you should turn every day into an adventure. 
-            Are you ready to be a part of it?
+            with you, so you can ask me all those questions in person! 
+            So let's start! I’m a person who is very passionate about the things I do in 
+            life.
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            I am a project manager right now because I love leading people to their 
+            success. I'm also currently an International Student, taking IT Security and Infrastructure here in Canada.
+            Outside of the career world, I do a lot of stuff; I travel, play musical 
+            instruments, sing, draw, program custom apps, I’m a race car driver, handyman, photographer (You should check my instagram for cool pics!) and much more. 
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            I believe that there is so much to live that you should turn every day into an adventure. 
+            Do you wanna to be a part of my adventure? What are you waiting for? If you call now you'll get a chance to hear more cool stuff! But wait! There's more!
+            If you hire me, you won't just get my positive vibe and energy(well, not like this in person, this is too much), you'll also hire someone who's smart,
+            strategic, resourceful, and proactive!
+            </p>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+            So what are you waiting for? Click on the "Get Connected" tab now!
             </p>
             <p className="mt-8">
               <Link
@@ -58,7 +71,7 @@ export function Author() {
                 className="inline-flex items-center text-base font-medium tracking-tight text-blue-600"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="fill-blue-600" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                <span className="ml-4">Follow me on Instagram</span>
+                <span className="ml-4">Do you like cool photos? Check out my Instagram!</span>
               </Link>
             </p>
           </div>
