@@ -18,16 +18,6 @@ const videos = [
     target: '_blank',
     referrer: 'noreferrer',
     status: 'Course 2 of 6',
-  },
-  {
-    title: 'Google PMP Certification',
-    description:
-      'Credential ID: W6S8XJ5J5K3S',
-    image: google,
-    url: 'https://www.coursera.org/account/accomplishments/certificate/W6S8XJ5J5K3S',
-    target: '_blank',
-    referrer: 'noreferrer',
-    status: 'Course 2 of 6',
   },  
   {
     title: 'IELTS Certification',
