@@ -6,6 +6,7 @@ import { Container } from '@/components/Container'
 import { Expandable } from '@/components/Expandable'
 import avatarImage3 from '@/images/avatars/wahab.jpg'
 import avatarImage4 from '@/images/avatars/mohd.jpg'
+import avatarImage5 from '@/images/avatars/graham.jpg'
 
 const testimonials = [
   [
@@ -41,7 +42,7 @@ const testimonials = [
         name: 'Graham McMillan',
         role: 'Helpdesk and Service Team Lead',
         company: 'Constant C Technology Group Inc.',
-        image: avatarImage4,
+        image: avatarImage5,
       },
     },
   ],
