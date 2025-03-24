@@ -29,7 +29,7 @@ export function Introduction() {
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            "*Understand team culture & processes* – Observe, communicate, and learn before implementing changes.",
+            "<strong>Understand team culture & processes</strong> – Observe, communicate, and learn before implementing changes.",
             "<b>Collaborate on project planning</b> – Engage the team in shaping the roadmap for success.",
             "<b>Encourage transparency & inclusion</b> – Ensure every voice is heard and valued.",
             "<b>Make informed leadership decisions</b> – Challenge unrealistic requirements with data-driven insights.",
