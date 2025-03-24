@@ -25,24 +25,24 @@ const testimonials = [
   [
     {
       content:
-        'He has made sure to deliver with utmost client satisfaction using industry best practices & making sure that the latest development guidelines were followed.',
-      author: {
-        name: 'Dr. Mohammed Raiyan',
-        role: 'Head of Product Development',
-        company: 'ConvrtX',
-        image: avatarImage4,
-      },
-    },
-  ],
-  [
-    {
-      content:
         'I highly recommend Juan for any IT position. During his work at Constant C, he showed great enthusiasm, attention to detail, and a strong work ethic. His ability to learn quickly and improve processes set him apart.',
       author: {
         name: 'Graham McMillan',
         role: 'Helpdesk and Service Team Lead',
         company: 'Constant C Technology Group Inc.',
         image: avatarImage5,
+      },
+    },
+  ],  
+  [
+    {
+      content:
+        'He has made sure to deliver with utmost client satisfaction using industry best practices & making sure that the latest development guidelines were followed.',
+      author: {
+        name: 'Dr. Mohammed Raiyan',
+        role: 'Head of Product Development',
+        company: 'ConvrtX',
+        image: avatarImage4,
       },
     },
   ],
