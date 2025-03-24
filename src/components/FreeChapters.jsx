@@ -7,7 +7,7 @@ export function FreeChapters() {
   return (
     <section
       id="get-connected"
-      aria-label="Get connected"
+      aria-label="Get in Touch"
       className="scroll-mt-14 bg-blue-600 sm:scroll-mt-32"
     >
       <div className="overflow-hidden lg:relative">
@@ -19,13 +19,13 @@ export function FreeChapters() {
           <div>
           <h2 className="inline-flex items-center rounded-full py-1 px-4 text-white ring-1 ring-inset ring-white mb-8" id="contact-title">
             <span className="font-mono text-sm" aria-hidden="true">04</span><span className="ml-3 h-3.5 w-px bg-white/20">
-            </span><span className="ml-3 text-base font-medium tracking-tight">Get Connected!</span>
+            </span><span className="ml-3 text-base font-medium tracking-tight">Get in Touch!</span>
           </h2>          
             <h2 className="font-display text-5xl font-extrabold tracking-tight text-white sm:w-3/4 sm:text-6xl md:w-2/3 lg:w-auto">
-              Know more about me!
+              Let’s Connect!
             </h2>
             <p className="mt-4 text-lg tracking-tight text-blue-200">
-              I’m always open for job opportunities, projects, and most especially new life experiences! 
+              I’m always open to new opportunities, collaborations, and discussions about leadership, project management, and innovation.
             </p>
           </div>
           <div className="lg:pl-16 z-10 lg:mt-14">

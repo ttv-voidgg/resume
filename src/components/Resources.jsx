@@ -115,11 +115,11 @@ export function Resources() {
           Work History
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          The teams who I’ve worked and grew with
+          Teams I’ve Worked & Grown With
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-        I have never used the word I or my, but we or our. It’s more of a team than an individual effort to finish a project with flying colours.
-        The teams mentioned below have supported and motivated me to give my best, making me the person I am today.
+          I rarely use "I" or "my"—because success is a team effort. Every project I’ve completed was made possible through collaboration, trust, and shared motivation.
+          The teams I’ve worked with have shaped me into the leader I am today, and I’m grateful for each experience.
         </p>
       </Container>
       <Container size="lg" className="mt-16">

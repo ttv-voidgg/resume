@@ -10,14 +10,14 @@ import { GridPattern } from '@/components/GridPattern'
 
 const videos = [
   {
-    title: 'Google PMP Certification',
+    title: 'Google Project Management Certification',
     description:
       'Credential ID: W6S8XJ5J5K3S',
     image: google,
     url: 'https://www.coursera.org/account/accomplishments/certificate/W6S8XJ5J5K3S',
     target: '_blank',
     referrer: 'noreferrer',
-    status: 'Course 2 of 6',
+    status: 'Course 4 of 6',
   },  
   {
     title: 'IELTS Certification',
@@ -69,15 +69,13 @@ export function Screencasts() {
         <GridPattern x="50%" patternTransform="translate(0 80)" />
       </div>
         <SectionHeading number="2" id="certifications-title">
-          Certifications and Assessments
+          Certifications & Professional Development
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Always seeking for avenues of growth.
+          I’m constantly learning—whether for my career or personal growth. 
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-        I like researching new stuff not just for my career but also for myself outside the industry; 
-        as you read through this site, I might be currently learning something new. 
-        Of course, not everything needs to be on paper, such as certificates, but here are some.
+          While not everything needs a certificate, here are a few that highlight my expertise:
         </p>
       </Container>
       <Container size="md" className="mt-16 relative">

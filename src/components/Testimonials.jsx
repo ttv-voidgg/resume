@@ -94,10 +94,11 @@ export function Testimonials() {
     <section className="py-8 sm:py-10 lg:py-16">
       <Container className="text-center">
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Some kind words from my teammates...
+          What Colleagues Say About Me
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
-          I have led and worked with remote teams from the Philippines, USA, Canada, Ukraine, India, Pakistan and UAE. Here is what they have to say about me.
+        I’ve had the privilege of leading and collaborating with talented remote teams across the Philippines, USA, Canada, Ukraine, India, Pakistan, and UAE. 
+        Here’s what they’ve shared about our work together.
         </p>
       </Container>
       <Expandable>
