@@ -8,9 +8,24 @@ import iation from '@/images/resources/ion.png'
 import cx from '@/images/resources/cx.png'
 import webriver from '@/images/resources/webriver.png'
 import wo from '@/images/resources/wo.png'
-import ssip from '@/images/resources/ssip.png'
+import cklph from '@/images/resources/cklph-logo.png.png'
 
 const resources = [
+  {
+    title: 'Chykalophia Group',
+    description:
+      'Project Manager',
+    year: '2023 - 2025',
+    country: 'Chicago, Illinois',
+    type: 'Full-time (Remote)',
+    image: function Cx() {
+      return (
+        <div className="relative inset-0 flex items-center justify-center">
+          <Image src={cklph} alt="" unoptimized />
+        </div>
+      )
+    },
+  },
   {
     title: 'ConvrtX',
     description:
@@ -30,7 +45,7 @@ const resources = [
     title: 'webriver',
     description:
       'Project Manager',
-    year: '2013 - 2022',
+    year: '2017 - 2023',
     country: 'Las Pinas City, Philippines',
     type: 'Freelance',
     image: function Webriver() {
@@ -85,22 +100,7 @@ const resources = [
         </div>
       )
     },
-  },
-  {
-    title: 'SSIP Asia Inc.,',
-    description:
-      'Junior Software Developer',
-    year: '2012 - 2013',
-    country: 'Makati, Philippines',
-    type: 'Full-time',
-    image: function Ssip() {
-      return (
-        <div className="relative inset-0 flex items-center justify-center">
-          <Image src={ssip} alt="" unoptimized />
-        </div>
-      )
-    },
-  },           
+  },         
 ]
 
 export function Resources() {
@@ -118,7 +118,7 @@ export function Resources() {
           Teams I’ve Worked & Grown With
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          I rarely use "I" or "my"—because success is a team effort. Every project I’ve completed was made possible through collaboration, trust, and shared motivation.
+          I rarely use &quot;I&quot; or &quot;my&quot;—because success is a team effort. Every project I’ve completed was made possible through collaboration, trust, and shared motivation.
           The teams I’ve worked with have shaped me into the leader I am today, and I’m grateful for each experience.
         </p>
       </Container>
