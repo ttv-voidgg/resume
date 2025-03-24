@@ -29,18 +29,20 @@ export function Introduction() {
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            <strong>Understand team culture & processes</strong> + "– Observe, communicate, and learn before implementing changes.",
-            "<b>Collaborate on project planning</b> – Engage the team in shaping the roadmap for success.",
-            "<b>Encourage transparency & inclusion</b> – Ensure every voice is heard and valued.",
-            "<b>Make informed leadership decisions</b> – Challenge unrealistic requirements with data-driven insights.",
-            "<b>Refine processes continuously</b> – Improve workflows through iterative enhancements.",
-            "<b>Build trust & leadership</b> – Empower team members to grow as leaders, not just contributors.",
-            "<b>Push boundaries</b> – Inspire teams to explore beyond their comfort zones.",
-            "<b>Embrace constructive feedback</b> – Use critiques as fuel for personal and professional growth."
-          ].map((feature) => (
-            <li key={feature} className="flex">
+            { boldText: "Understand team culture & processes", description: "Observe, communicate, and learn before implementing changes." },
+            { boldText: "Collaborate on project planning", description: "Engage the team in shaping the roadmap for success." },
+            { boldText: "Encourage transparency & inclusion", description: "Ensure every voice is heard and valued." },
+            { boldText: "Make informed leadership decisions", description: "Challenge unrealistic requirements with data-driven insights." },
+            { boldText: "Refine processes continuously", description: "Improve workflows through iterative enhancements." },
+            { boldText: "Build trust & leadership", description: "Empower team members to grow as leaders, not just contributors." },
+            { boldText: "Push boundaries", description: "Inspire teams to explore beyond their comfort zones." },
+            { boldText: "Embrace constructive feedback", description: "Use critiques as fuel for personal and professional growth." },
+          ].map((item, index) => (
+            <li key={index} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
-              <span className="ml-4">{feature}</span>
+              <span className="ml-4">
+                <strong>{item.boldText}</strong> – {item.description}
+              </span>
             </li>
           ))}
         </ul>
