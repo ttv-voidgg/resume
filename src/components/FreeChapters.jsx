@@ -19,7 +19,7 @@ export function FreeChapters() {
           <div>
           <h2 className="inline-flex items-center rounded-full py-1 px-4 text-white ring-1 ring-inset ring-white mb-8" id="contact-title">
             <span className="font-mono text-sm" aria-hidden="true">04</span><span className="ml-3 h-3.5 w-px bg-white/20">
-            </span><span className="ml-3 text-base font-medium tracking-tight">Get in Touch!</span>
+            </span><span className="ml-3 text-base font-medium tracking-tight">Get in Touch</span>
           </h2>          
             <h2 className="font-display text-5xl font-extrabold tracking-tight text-white sm:w-3/4 sm:text-6xl md:w-2/3 lg:w-auto">
               Let’s Connect! 
