@@ -8,7 +8,7 @@ import iation from '@/images/resources/ion.png'
 import cx from '@/images/resources/cx.png'
 import webriver from '@/images/resources/webriver.png'
 import wo from '@/images/resources/wo.png'
-import cklph from '@/images/resources/cklph-logo.png.png'
+import cklph from '@/images/resources/cklph-logo.png'
 
 const resources = [
   {

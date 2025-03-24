@@ -22,7 +22,7 @@ export function FreeChapters() {
             </span><span className="ml-3 text-base font-medium tracking-tight">Get in Touch!</span>
           </h2>          
             <h2 className="font-display text-5xl font-extrabold tracking-tight text-white sm:w-3/4 sm:text-6xl md:w-2/3 lg:w-auto">
-              Let’s Connect!
+              Let’s Connect! 
             </h2>
             <p className="mt-4 text-lg tracking-tight text-blue-200">
               I’m always open to new opportunities, collaborations, and discussions about leadership, project management, and innovation.
