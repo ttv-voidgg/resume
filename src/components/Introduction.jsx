@@ -12,31 +12,31 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Transparency, compassion, creativity, and critical thinking are the quadfecta
-          that helps my team achieve great heights.
+          Transparency, compassion, creativity, and critical thinking define my approach to project management.
+          My mission is to lead teams toward excellence, balancing efficiency with innovation.
         </p>
         <p className="mt-4">
-        Before, when I was in college, I always imagined that project management was just a bunch of tedious processes
-         to drive projects from start to end. I thought that it was enough to know the basics, and then all should be good.
+          When I was in college, I assumed project management was just a series of processes to push projects from start to finish.
+          I thought knowing the basics would be enough.
         </p>
         <p className="mt-4">
-          But this isn’t how great project managers work at all.
+          But great project management is so much more than that.
         </p>
         <p className="mt-4">
-        Immediately after graduating college, I started working as a developer. 
-        At that point, I felt like there should be more to it which led me to 
-        begin searching for answers that brought me the following objectives:
+          After graduating, I started as a developer.
+          I quickly realized there was more to leading projects than just following protocols.
+          This realization sparked my curiosity and led me to these guiding principles:
         </p>
         <ul role="list" className="mt-8 space-y-3">
           {[
-            'Understand the culture of the team and their existing process by observing and communicating',
-            'Discuss project plans together with the team',
-            'Encourage my team to be transparent and have their voices heard',
-            'Be a leader who knows when to decline requirements and support them with facts conferred with the team',
-            'Enhance the current process based on observation during the project life cycle',
-            'Trust my team and prepare them to become leaders and not just followers',
-            'Drive growth by motivating my team to explore outside of their comfort zone',
-            'Accept my weaknesses by taking constructive criticism to improve myself',
+            "<b>Understand team culture & processes</b> – Observe, communicate, and learn before implementing changes.",
+            "<b>Collaborate on project planning</b> – Engage the team in shaping the roadmap for success.",
+            "<b>Encourage transparency & inclusion</b> – Ensure every voice is heard and valued.",
+            "<b>Make informed leadership decisions</b> – Challenge unrealistic requirements with data-driven insights.",
+            "<b>Refine processes continuously</b> – Improve workflows through iterative enhancements.",
+            "<b>Build trust & leadership</b> – Empower team members to grow as leaders, not just contributors.",
+            "<b>Push boundaries</b> – Inspire teams to explore beyond their comfort zones.",
+            "<b>Embrace constructive feedback</b> – Use critiques as fuel for personal and professional growth."
           ].map((feature) => (
             <li key={feature} className="flex">
               <CheckIcon className="h-8 w-8 flex-none fill-blue-500" />
@@ -45,10 +45,9 @@ export function Introduction() {
           ))}
         </ul>
         <p className="mt-8">
-        I improved the existing processes of the teams I’ve worked with by being someone they can trust. 
-        Project management is not just about the processes needed to make a project successful; 
-        not just about satisfying the stakeholders by saying “YES” to everything in defiance of logic and in exchange for the teams’ morale. 
-        It is more than that, and that’s where I stand with my team.
+        Project management isn’t just about structure or keeping stakeholders happy by saying “yes” to everything.
+        It’s about fostering trust, balancing priorities, and making informed decisions that benefit both the project and the team.
+        That’s the philosophy I bring to every project I lead.
         </p>
         <p className="mt-10">
           <Link

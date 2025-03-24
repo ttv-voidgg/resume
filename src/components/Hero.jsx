@@ -56,7 +56,8 @@ export function Hero() {
               The Rockstar Project Manager.
             </h1>
             <p className="mt-4 text-3xl text-slate-600">
-              Driving successful remote projects with creativity, transparency, and execution. 8+ years of experience leading teams and delivering high-impact change management projects.
+              <em>Driving successful remote projects with creativity, transparency, and execution.</em>
+              8+ years of experience leading teams and delivering high-impact change management projects.
             </p>
             <div className="mt-8 flex gap-4">
               <Button href="#get-connected" color="blue">
