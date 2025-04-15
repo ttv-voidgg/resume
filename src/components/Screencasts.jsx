@@ -77,8 +77,12 @@ export function Screencasts() {
               2nd Runner Up 2025 North Forge Ramp Up Weekend
             </h1>
             <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p className="text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+              <p className="text-pretty text-lg font-medium text-gray-500 sm:text-xl/8 mb-5">
                 Repurposed an existing app that I&apos;ve developed, which led to rapid and efficient deployment and resulted to a working MVP. A proof that with proper OOP implementation, software can be stripped out and be implemented in various use cases, with consideration to its scope.
+              </p>
+
+              <p className="text-pretty text-lg italic text-gray-500 sm:text-xl/8">
+                <strong>Labour Power Team 2025:</strong> Melind Bhroat, Jamie O&apos;niell, Juan Carlos de Borja, Landon Pinette, Alex Juma
               </p>
             </div>
             <img
