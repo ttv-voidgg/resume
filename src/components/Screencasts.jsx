@@ -64,6 +64,32 @@ export function Screencasts() {
       aria-labelledby="certifications-title"
       className="relative scroll-mt-14 py-16 sm:scroll-mt-32 sm:py-20 lg:py-32 bg-slate-100"
     >
+
+
+      <div className="relative isolate overflow-hidden pb-28">
+        <div
+            aria-hidden="true"
+            className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg]  ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
+        />
+        <div className="mx-auto max-w-7xl px-6 py-10 sm:py-10 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-8 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+            <h1 className="max-w-2xl text-balance text-5xl !leading-[5rem] font-semibold tracking-tight text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto">
+              2nd Runner Up 2025 North Forge Ramp Up Weekend
+            </h1>
+            <div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
+              <p className="text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+                Repurposed an existing app that I&apos;ve developed, which led to rapid and efficient deployment and resulted to a working MVP. A proof that with proper OOP implementation, software can be stripped out and be implemented in various use cases, with consideration to its scope.
+              </p>
+            </div>
+            <img
+                alt=""
+                src="/labour-power.jpg"
+                className="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+            />
+          </div>
+        </div>
+      </div>
+
       <Container>
       <div className="text-slate-900/10">
         <GridPattern x="50%" patternTransform="translate(0 80)" />
@@ -78,6 +104,7 @@ export function Screencasts() {
           While not everything needs a certificate, here are a few that highlight my expertise:
         </p>
       </Container>
+
       <Container size="md" className="mt-16 relative">
         <ol
           role="list"

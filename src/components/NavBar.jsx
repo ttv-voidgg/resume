@@ -12,7 +12,7 @@ const sections = [
       </>
     ),
   },
-  { id: 'certifications', title: 'Certifications' },
+  { id: 'certifications', title: 'Credentials' },
   { id: 'work-history', title: 'Work History' },
   { id: 'get-connected', title: 'Get in Touch' },
   { id: 'outside-work', title: 'Outside Work' },
